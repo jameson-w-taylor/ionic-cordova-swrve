@@ -1,0 +1,7 @@
+{
+  "name": "swrve-ionic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
