@@ -4,9 +4,9 @@ Originally it seemed to be related to the Ionic product, Auth Connect, but after
 There is an outstanding [issue](https://github.com/Swrve/swrve-cordova-sdk/issues/16) on their github that describes the observed behavior.
 
 # Developer Setup
-This app is configured to use a sandbox Swrve account that was setup for Ionic to use for testing. We have been using a personal Apple Developer account for certificate signing, which other developers obviously will not have access to.
+This app was configured to use a sandbox Swrve account that was created for Ionic to use for testing. We have been using a personal Apple Developer account for certificate signing, which other developers obviously will not have access to.
 
-Because of this, you'll need to modify the `swrve.appId` and `swrve.apiKey` entries in `config.xml` to be appropriate for the Swrve account you will use to test Push Notifications.
+Because of this, you'll need to modify the `swrve.appId` and `swrve.apiKey` entries in `config.xml` to be appropriate for the Swrve account you will use to test Push Notifications. This account will require you to [generate and upload](https://docs.swrve.com/developer-documentation/integration-resources/manage-apns-keys-and-certificates/#Using_a_TLS_certificate_p12_file) a `.p12` certificate for Push Notifications to work.
 
 ## Installation
 ### Add iOS Platform
